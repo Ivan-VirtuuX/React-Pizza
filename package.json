@@ -1,8 +1,8 @@
 {
+  "homepage": "http://ivan-virtuux.github.io/React-Pizza/",
   "name": "react-pizza",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ivan-virtuux.github.io/React-Pizza/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "react-scripts build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
